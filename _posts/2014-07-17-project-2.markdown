@@ -4,8 +4,8 @@ subtitle: Ideate
 layout: default
 modal-id: 2
 date: 2025-04-29
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: 2.png
+thumbnail: 2.png
 alt: image-alt
 project-date: April 2025
 client: Start Bootstrap
