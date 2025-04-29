@@ -15,10 +15,10 @@ people:
   social:
     - title: twitter
       url: "https://x.com/jieunseong_"
-    - title: mail
+    - title: email
       url: mailto:jieun3891@snu.ac.kr
     - title: linkedin
-      url: "www.linkedin.com/in/jieunseong"
+      url: "https://www.linkedin.com/in/jieunseong"
 
 - name: Jisu Son
   pic: 2
@@ -26,10 +26,10 @@ people:
   social:
     - title: twitter
       url: "https://x.com/wisdomsu_"
-    - title: mail
+    - title: email
       url: mailto:blanksoo15@gmail.com
     - title: linkedin
-      url: "www.linkedin.com/in/jisu-son-3b7567351"
+      url: "https://www.linkedin.com/in/jisu-son-3b7567351"
 
 
 # Build settings
