@@ -4,8 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2025-04-29
-img: magnifying-glass.jpg
-thumbnail: magnifying-glass.jpg
+img: "/img/magnifying-glass.jpg"
+thumbnail: "/img/magnifying-glass.jpg"
 alt: image-alt
 project-date: April 2025
 client: Start Bootstrap
