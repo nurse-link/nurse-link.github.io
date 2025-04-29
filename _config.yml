@@ -2,15 +2,15 @@ url: ""
 baseurl: "https://nurse-link.github.io"
 
 # Site settings
-title: Awesome Title
+title: Nurse-Link
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Nurse-Link"
 
 
 # Team names, titles and social links
 people:
 - name: Jieun Seong
-  pic: 1
+  pic: /img/jieun.PNG
   position: Integrated Ph.D. Student
   social:
     - title: twitter
@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Jisu Son
-  pic: 2
+  pic: /img/jisu.png
   position: M.S Student
   social:
     - title: twitter
