@@ -1,13 +1,13 @@
 ---
-title: Low-Fi Prototype
-subtitle: Low-Fi Prototype
+title: Group Heuristic Evaluation
+subtitle: Group Heuristic Evaluation
 layout: default
-modal-id: 4
-date: 2025-04-29
-img: 4.png
-thumbnail: 4.png
+modal-id: 6
+date: 2025-05-29
+img: 6.png
+thumbnail: 6.png
 alt: image-alt
-project-date: April 2025
+project-date: May 2014
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.

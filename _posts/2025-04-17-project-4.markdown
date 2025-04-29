@@ -1,13 +1,13 @@
 ---
-title: Concept Video
-subtitle: Concept Video
+title: Low-Fi Prototype
+subtitle: Low-Fi Prototype
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: 3.png
-thumbnail: 3.png
+modal-id: 4
+date: 2025-04-17
+img: 4.png
+thumbnail: 4.png
 alt: image-alt
-project-date: April 2014
+project-date: April 2025
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
