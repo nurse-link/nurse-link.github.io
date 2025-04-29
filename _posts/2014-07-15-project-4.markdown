@@ -4,8 +4,8 @@ subtitle: Low-Fi Prototype
 layout: default
 modal-id: 4
 date: 2025-04-29
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: 4.png
+thumbnail: 4.png
 alt: image-alt
 project-date: April 2025
 client: Start Bootstrap
