@@ -10,7 +10,7 @@ description: "Nurse-Link"
 # Team names, titles and social links
 people:
 - name: Jieun Seong
-  pic: /img/jieun.PNG
+  pic: jieun
   position: Integrated Ph.D. Student
   social:
     - title: twitter
@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Jisu Son
-  pic: /img/jisu.png
+  pic: jisu
   position: M.S Student
   social:
     - title: twitter
