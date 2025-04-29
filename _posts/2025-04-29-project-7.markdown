@@ -1,12 +1,13 @@
 ---
-title: Medium-fi Prototype
-subtitle: Medium-fi Prototype
+title: Hi-fi Prototype
+subtitle: Hi-fi Prototype
 layout: default
-modal-id: 5
-date: 2025-05-15
-img: 5.png
-thumbnail: 5.png
-project-date: May 2025
+modal-id: 7
+date: 2025-04-29
+img: 7.png
+thumbnail: 7.png
+alt: image-alt
+project-date: June 2025
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.

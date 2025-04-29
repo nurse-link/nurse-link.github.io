@@ -3,7 +3,7 @@ title: Poster
 subtitle: Poster
 layout: default
 modal-id: 8
-date: 2025-06-05
+date: 2025-04-29
 img: 8.png
 thumbnail: 8.png
 alt: image-alt

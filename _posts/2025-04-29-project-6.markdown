@@ -3,7 +3,7 @@ title: Group Heuristic Evaluation
 subtitle: Group Heuristic Evaluation
 layout: default
 modal-id: 6
-date: 2025-05-29
+date: 2025-04-29
 img: 6.png
 thumbnail: 6.png
 alt: image-alt
