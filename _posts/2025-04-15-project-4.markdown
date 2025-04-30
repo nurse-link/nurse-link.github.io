@@ -3,7 +3,7 @@ title: Low-Fi Prototype
 subtitle: Low-Fi Prototype
 layout: default
 modal-id: 4
-date: 2025-04-17
+date: 2025-04-15
 img: 4.png
 thumbnail: 4.png
 alt: image-alt

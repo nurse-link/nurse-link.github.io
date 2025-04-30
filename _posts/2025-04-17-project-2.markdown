@@ -3,13 +3,13 @@ title: Ideate
 subtitle: Ideate
 layout: default
 modal-id: 2
-date: 2025-04-03
+date: 2025-04-17
 img: 2.png
 thumbnail: 2.png
 alt: image-alt
 project-date: April 2025
-client: Start Bootstrap
-category: Web Development
+pdf: [Ideate](/assets/Ideate.pdf)
+youtube: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---

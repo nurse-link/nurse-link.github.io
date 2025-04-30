@@ -3,7 +3,7 @@ title: Medium-fi Prototype
 subtitle: Medium-fi Prototype
 layout: default
 modal-id: 5
-date: 2025-04-29
+date: 2025-04-14
 img: 5.png
 thumbnail: 5.png
 project-date: May 2025

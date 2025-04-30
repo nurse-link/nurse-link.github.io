@@ -3,7 +3,7 @@ title: Hi-fi Prototype
 subtitle: Hi-fi Prototype
 layout: default
 modal-id: 7
-date: 2025-04-29
+date: 2025-04-12
 img: 7.png
 thumbnail: 7.png
 alt: image-alt
