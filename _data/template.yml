@@ -1,10 +1,10 @@
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes without the leading hash-tag) 
 color: 
-  primary: 7ec6f4
-  secondary: 4ba6cb
-  secondary-dark: 2c6a85
-  muted: a0c4d8
-
+  primary: 4da6d6     # 조금 더 진한 하늘색 (원래 primary보다 진함)
+  secondary: 2b88b2   # 선명한 파랑톤
+  secondary-dark: 1e5f7a  # 어두운 청색
+  muted: 6b9cb3
+  
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
