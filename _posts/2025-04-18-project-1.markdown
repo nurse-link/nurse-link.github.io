@@ -7,8 +7,8 @@ img: 1.png
 thumbnail: 1.png
 alt: image-alt
 project-date: March 2025
-pdf: [Needfinding](/assets/Needfinding.pdf)
-youtube: Web Development
+client: Needfinding(/assets/Needfinding.pdf)
+category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
