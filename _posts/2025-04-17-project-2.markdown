@@ -8,8 +8,8 @@ img: 2.png
 thumbnail: 2.png
 alt: image-alt
 project-date: April 2025
-pdf: [Ideate](/assets/Ideate.pdf)
-youtube: Web Development
+client: Ideate(/assets/Ideate.pdf)
+category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
