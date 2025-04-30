@@ -18,15 +18,15 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong>{{ post.project-date }}</strong>
                                     </strong>
                                 </li>
                                 <li>PDF:
-                                    <strong><a href="http://startbootstrap.com">{{ post.pdf }}</a>
+                                    <strong><a href="{{ post.pdf-link }}">{{ post.pdf }}</a>
                                     </strong>
                                 </li>
                                 <li>YouTube:
-                                    <strong><a href="http://startbootstrap.com">{{ post.youtube }}</a>
+                                    <strong><a href="{{ post.youtube-link }}">{{ post.youtube }}</a>
                                     </strong>
                                 </li>
                             </ul>
