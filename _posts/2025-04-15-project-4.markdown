@@ -1,6 +1,6 @@
 ---
 title: Low-Fi Prototype
-subtitle: Low-Fi Prototype
+subtitle: Fail Fast, Learn Faster
 layout: default
 modal-id: 4
 date: 2025-04-15

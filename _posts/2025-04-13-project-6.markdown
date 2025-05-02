@@ -1,6 +1,6 @@
 ---
 title: Group Heuristic Evaluation
-subtitle: Group Heuristic Evaluation
+subtitle: Inspecting Usability with Expert Eyes
 layout: default
 modal-id: 6
 date: 2025-04-13

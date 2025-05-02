@@ -1,6 +1,6 @@
 ---
 title: Ideate
-subtitle: Ideate
+subtitle: Exploring Creative Solutions through Ideation
 layout: default
 modal-id: 2
 date: 2025-04-17
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2025
 pdf: Ideate
 pdf-link: /assets/Ideation.pdf
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: In the Ideation stage, we defined the Point of View (POV) based on the needs identified in the Needfinding phase, and used "How Might We" (HMW) questions to conduct brainstorming. From the ideas generated, we created three experience prototypes. After evaluating them based on criteria such as usability, cost-effectiveness, and feasibility, we selected the most suitable prototype.
 
 ---

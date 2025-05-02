@@ -10,6 +10,6 @@ alt: image-alt
 project-date: March 2025
 pdf: Needfinding
 pdf-link: /assets/Needfinding.pdf
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: We aimed to redesign communication between nurses in the ENT ward and speech-impaired patients. To do so, we interviewed five nurses with over three years of experience in the ENT ward. Based on the interview results, we created an empathy map and identified both usability needs and deeper needs.
 
 ---

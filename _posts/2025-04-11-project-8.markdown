@@ -1,6 +1,6 @@
 ---
-title: Poster
-subtitle: Poster
+title: Poster & Final Presentation
+subtitle: Communicating the Journey and the Solution
 layout: default
 modal-id: 8
 date: 2025-04-11

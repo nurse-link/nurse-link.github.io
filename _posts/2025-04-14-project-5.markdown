@@ -1,6 +1,6 @@
 ---
 title: Medium-fi Prototype
-subtitle: Medium-fi Prototype
+subtitle: Balancing Functionality and Form
 layout: default
 modal-id: 5
 date: 2025-04-14

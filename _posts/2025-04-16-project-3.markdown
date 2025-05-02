@@ -1,6 +1,6 @@
 ---
 title: Concept Video
-subtitle: Concept Video
+subtitle: Bringing the Idea to Life through Storytelling
 layout: default
 modal-id: 3
 date: 2025-04-16
@@ -12,6 +12,6 @@ pdf: Concept Video
 pdf-link: /assets/Concept Video.pdf
 youtube: Concept Video
 youtube-link: https://youtu.be/AmyyHxzqDVA
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: In the Concept Video stage, we defined the value proposition, problem, and solution. We selected three tasks to be achieved through the product, categorized into simple, medium, and complex levels. To effectively showcase these tasks, we created a YouTube video.
 
 ---

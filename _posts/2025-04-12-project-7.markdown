@@ -1,6 +1,6 @@
 ---
 title: Hi-fi Prototype
-subtitle: Hi-fi Prototype
+subtitle: Simulating the Real Experience
 layout: default
 modal-id: 7
 date: 2025-04-12
