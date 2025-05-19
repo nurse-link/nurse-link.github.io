@@ -35,3 +35,8 @@ people:
 # Build settings
 markdown: kramdown
 permalink: pretty
+kramdown : 
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  

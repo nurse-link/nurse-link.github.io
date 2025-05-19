@@ -10,9 +10,9 @@ project-date: May 2025
 client: Start Bootstrap
 category: Web Development
 description: A mid-fi prototype for nurse-patient communication.
----
 
-## 📐 Medium-fi Prototype Demo
+### 📐 Medium-fi Prototype Demo
+
 
 <iframe 
     src="https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&index=0&interactions-mode=show-on-click&share-id=13e45124-73b4-8140-8006-355addd153bb" 
