@@ -10,6 +10,8 @@ project-date: May 2025
 client: Start Bootstrap
 category: Web Development
 description: A mid-fi prototype for nurse-patient communication.
+---
+
 
 ### 📐 Medium-fi Prototype Demo
 
@@ -22,4 +24,3 @@ description: A mid-fi prototype for nurse-patient communication.
     allowfullscreen>
 </iframe>
 
----
