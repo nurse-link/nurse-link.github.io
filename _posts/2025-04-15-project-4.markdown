@@ -12,6 +12,6 @@ pdf: Low-Fi Prototype
 pdf-link: /assets/Lowfi.pdf
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Based on the selected experience prototype from the Ideation stage, we created a low-fidelity prototype using simple materials such as paper and sticky notes. The prototype simulated key scenarios in which nurses communicate with speech-impaired patients. We conducted user testing with three ENT nurses, observing their interactions and gathering feedback. This process helped us identify usability issues and areas for improvement before moving to a more refined prototype.
 
 ---

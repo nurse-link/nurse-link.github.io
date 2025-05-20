@@ -15,6 +15,6 @@ README: README
 README-link: /assets/README.pdf
 client: Start Bootstrap
 category: Web Development
-description: A mid-fi prototype for nurse-patient communication.
+description: Informed by the results of the low-fi testing, we developed a medium-fidelity prototype using Penpot. This version incorporated more realistic visuals and basic interactivity, allowing for a better representation of the intended user experience. We focused on layout, navigation flow, and ensuring that the design addressed the prioritized needs of both nurses and patients.
 ---
 
