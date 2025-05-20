@@ -7,8 +7,8 @@ date: 2025-04-14
 img: 5.png
 thumbnail: 5.png
 project-date: May 2025
-penpot: View Prototype
-penpot-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&index=0&share-id=13e45124-73b4-8140-8006-355addd153bb
+prototype: View Prototype
+prototype-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&index=0&share-id=13e45124-73b4-8140-8006-355addd153bb
 pdf: Medium-fi Prototype
 pdf-link: /assets/Medfi.pdf
 README: README

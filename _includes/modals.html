@@ -35,10 +35,10 @@
                                     <strong><a href="{{ post.README-link }}">{{ post.README }}</a></strong>
                                 </li>
                                 {% endif %}
-                                {% if post.penpot-link %}
-                                <div style="margin: 20px 0;">
-                                    <strong><a href="{{ post.penpot-link }}">{{ post.penpot }}</a></strong>
-                                </div>
+                                {% if post.prototype and post.prototype %}
+                                <li>Prototype:
+                                    <strong><a href="{{ post.prototype-link }}">{{ post.prototype }}</a></strong>
+                                </li>
                                 {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
