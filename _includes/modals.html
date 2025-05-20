@@ -30,6 +30,11 @@
                                     <strong><a href="{{ post.youtube-link }}">{{ post.youtube }}</a></strong>
                                 </li>
                                 {% endif %}
+                                {% if post.youtube and post.README %}
+                                <li>YouTube:
+                                    <strong><a href="{{ post.README-link }}">{{ post.README }}</a></strong>
+                                </li>
+                                {% endif %}
                                 {% if post.penpot-link %}
                                 <div style="margin: 20px 0;">
                                     <iframe src="{{ post.penpot-link }}" width="100%" height="600" style="border:1px solid #ccc;"></iframe>
