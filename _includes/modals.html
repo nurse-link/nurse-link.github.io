@@ -36,8 +36,14 @@
                                 </li>
                                 {% endif %}
                                 {% if post.prototype and post.prototype %}
-                                <li>Prototype:
+                                <li>Prototype1:
                                     <strong><a href="{{ post.prototype-link }}">{{ post.prototype }}</a></strong>
+                                </li>
+                                {% endif %}
+                                {% endif %}
+                                {% if post.prototype and post.prototype2 %}
+                                <li>Prototype2:
+                                    <strong><a href="{{ post.prototype2-link }}">{{ post.prototype2 }}</a></strong>
                                 </li>
                                 {% endif %}
                             </ul>

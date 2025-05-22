@@ -7,10 +7,10 @@ date: 2025-04-14
 img: 5.png
 thumbnail: 5.png
 project-date: May 2025
-prototype: View Prototype
-prototype-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&frame-id=50e7a2e2-2a87-80c4-8006-33a727d1dccb&index=0&share-id=13e45124-73b4-8140-8006-355addd153bb
-prototype: View Prototype2
-prototype-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&frame-id=50e7a2e2-2a87-80c4-8006-33a727d1dccb&index=0&share-id=13e45124-73b4-8140-8006-355addd153bb
+prototype: View Prototype For Patient
+prototype-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=50e7a2e2-2a87-80c4-8006-33adcf9f2c74&section=interactions&frame-id=50e7a2e2-2a87-80c4-8006-33add55011db&index=0&share-id=13e45124-73b4-8140-8006-3560a6c10982
+prototype2: View Prototype For Nurse
+prototype2-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006-33a659c020e2&page-id=13e45124-73b4-8140-8006-33a659c020e3&section=interactions&frame-id=50e7a2e2-2a87-80c4-8006-33a727d1dccb&index=0&share-id=13e45124-73b4-8140-8006-355addd153bb
 pdf: Medium-fi Prototype
 pdf-link: /assets/Medfi.pdf
 README: README
