@@ -13,7 +13,7 @@ prototype-link: https://design.penpot.app/#/view?file-id=13e45124-73b4-8140-8006
 prototype2: High-fi Prototype For Nurse
 prototype2-link: https://nurse-linkappio-gyv44wfuzc6ghpemgfurtb.streamlit.app/
 pdf: High-fi Prototype
-pdf-link: /assets/Medfi.pdf
+pdf-link: /assets/Hifi.pdf
 README: README
 README-link: /assets/README.pdf
 client: Start Bootstrap
