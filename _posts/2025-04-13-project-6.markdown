@@ -8,8 +8,10 @@ img: 6.png
 thumbnail: 6.png
 alt: image-alt
 project-date: May 2025
+pdf: Group Heuristic Evaluation
+pdf-link: /assets/Group_Heuristic.pdf
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: To further refine the prototype, we conducted a heuristic evaluation in a peer group setting. Using Nielsen's usability heuristics, our team identified strengths and weaknesses in the medium-fi prototype. Common issues included inconsistent terminology and unclear iconography. These insights guided us in making targeted improvements for the high-fidelity version.
 
 ---
