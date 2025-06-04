@@ -208,7 +208,7 @@ elif st.session_state.page == "patient_list":
         st.session_state.page = "login"
         st.rerun()
     st.markdown(
-        '<div style="padding: 10px 0 6px 0;"><div style="font-size: 1.18em; font-weight: 600; color: #222;">12 병동<br>담당간호사: 김ㅇㅇ</div></div>',
+        '<div style="padding: 10px 0 6px 0;"><div style="font-size: 1.18em; font-weight: 600; color: #222;">12 병동<br>담당간호사: 김ㅇㅇ<br>환자리스트트</div></div>',
         unsafe_allow_html=True
     )
     sort_options = ["침상 위치 순", "응급 요청 순", "최근 요청 순", "즐겨찾기 순"]
@@ -269,6 +269,7 @@ elif st.session_state.page == "request_list":
             <span class="star" style="left:4px;top:18px;color:{star_color};font-size:1.35em;position:absolute;">{star_icon}</span>
             <span style="font-size:1.25em;font-weight:700;">{patient['bed']}</span><br>
             <span style="font-size:1.1em;font-weight:600;">{patient['name']}({patient['info']})</span>
+            <span style="font-size:1.25em;font-weight:700;">요청리스트</span><br>
         </div>
         """, unsafe_allow_html=True
     )
