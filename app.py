@@ -188,9 +188,10 @@ st.markdown("""
 
 # ---------------- 로그인 화면 ----------------
 if st.session_state.page == "login":
+    st.image("img/logo.png", use_column_width=True)
     st.markdown(
         """
-        <div style="height:40px;"></div>
+        <div style="height:0px;"></div>
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
             <h2 style="margin-bottom:28px; font-size:1.5em;">로그인</h2>
         </div>
@@ -213,7 +214,7 @@ elif st.session_state.page == "patient_list":
     )
     sort_options = ["침상 위치 순", "응급 요청 순", "최근 요청 순", "즐겨찾기 순"]
     sort_selected = st.selectbox(
-        "", sort_options, key="sort_patients", label_visibility="collapsed"
+        "정렬 기준", sort_options, key="sort_patients", label_visibility="collapsed"
     )
     def sort_patients_func(patients, option):
         if option == "침상 위치 순":
@@ -275,7 +276,7 @@ elif st.session_state.page == "request_list":
     )
     sort_options = ["최근 요청 순", "응급 요청 순"]
     sort_selected = st.selectbox(
-        "", sort_options, key="req_sort", label_visibility="collapsed"
+        "정렬 기준", sort_options, key="req_sort", label_visibility="collapsed"
     )
     def sort_requests(requests, option):
         if option == "응급 요청 순":
@@ -363,16 +364,15 @@ elif st.session_state.page == "pain_request":
 
     # 통증 요청 상세 정보
     st.markdown(f"""
-    <div style="padding:18px 0 0 30px;">
-        <b><span style="font-size:1.5em;font-weight:600;">{req['time']}</span><br>
-        <b>통증 부위:</b> 배<br>
-        <b>통증 강도:</b> 5/10<br>
-        <b>통증 양상:</b> 찌르듯이
-    </div>
+        <div style="padding:18px 0 0 30px; font-size:1.5em;">
+            <b><span style="font-weight:600;">{req['time']}</span></b><br>
+            <b>통증 부위: 배<br></b>
+            <b>통증 강도: 8/10<br></b>
+            <b>통증 양상: 찌르듯이</b> 
+        </div>
     """, unsafe_allow_html=True)
+    st.image("img/pain.png", use_column_width=True)
     st.stop()
-
-    st.image("pain.png", use_column_width=True)
 
 # 쿼리파라미터 감지 및 페이지 전환
 if params.get("select_patient"):

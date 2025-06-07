@@ -30,19 +30,24 @@
                                     <strong><a href="{{ post.youtube-link }}">{{ post.youtube }}</a></strong>
                                 </li>
                                 {% endif %}
-                                {% if post.README and post.README %}
+                                {% if post.README and post.README-link %}
                                 <li>README:
                                     <strong><a href="{{ post.README-link }}">{{ post.README }}</a></strong>
                                 </li>
                                 {% endif %}
-                                {% if post.prototype and post.prototype %}
+                                {% if post.prototype and post.prototype-link %}
                                 <li>Prototype 1:
                                     <strong><a href="{{ post.prototype-link }}">{{ post.prototype }}</a></strong>
                                 </li>
                                 {% endif %}
-                                {% if post.prototype and post.prototype2 %}
+                                {% if post.prototype2 and post.prototype2-link %}
                                 <li>Prototype 2:
                                     <strong><a href="{{ post.prototype2-link }}">{{ post.prototype2 }}</a></strong>
+                                </li>
+                                {% endif %}
+                                {% if post.poster and post.poster-link %}
+                                <li>Poster:
+                                    <strong><a href="{{ post.poster-link }}">{{ post.poster }}</a></strong>
                                 </li>
                                 {% endif %}
                             </ul>

@@ -10,6 +10,10 @@ alt: image-alt
 project-date: June 2025
 client: Start Bootstrap
 category: Web Development
+pdf: Final Presentation
+pdf-link: /assets/Final.pdf
+poster: Poster
+poster-link: /assets/Poster.pdf
 description: To summarize our design process and outcomes, we created a final poster and presentation. These materials highlighted the problem space, user needs, design iterations, and the final solution. We also included screenshots of the prototypes and key user feedback to demonstrate the evolution of our design. The final presentation was delivered to peers and instructors, showcasing both our process and product.
 
 ---
