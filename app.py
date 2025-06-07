@@ -208,7 +208,7 @@ elif st.session_state.page == "patient_list":
         st.session_state.page = "login"
         st.rerun()
     st.markdown(
-        '<div style="padding: 10px 0 6px 0;"><div style="font-size: 1.18em; font-weight: 600; color: #222;">12 병동<br>담당간호사: 김ㅇㅇ<br>환자리스트</div></div>',
+        '<div style="padding: 10px 0 6px 0;"><div style="font-size: 1.5em; font-weight: 600; color: #222;">12 병동<br>담당간호사: 김ㅇㅇ<br>환자리스트</div></div>',
         unsafe_allow_html=True
     )
     sort_options = ["침상 위치 순", "응급 요청 순", "최근 요청 순", "즐겨찾기 순"]
@@ -266,10 +266,10 @@ elif st.session_state.page == "request_list":
     st.markdown(
         f"""
         <div style="background:#e3f2fd;padding:18px 0 6px 30px; position:relative;">
-            <span class="star" style="left:4px;top:18px;color:{star_color};font-size:1.35em;position:absolute;">{star_icon}</span>
-            <span style="font-size:1.25em;font-weight:700;">{patient['bed']}</span><br>
-            <span style="font-size:1.1em;font-weight:600;">{patient['name']}({patient['info']})</span><br>
-            <span style="font-size:1.25em;font-weight:700;">요청리스트</span>
+            <span class="star" style="left:0px;top:18px;color:{star_color};font-size:1.5em;position:absolute;">{star_icon}</span>
+            <span style="font-size:1.5em;font-weight:700;">{patient['bed']}</span><br>
+            <span style="font-size:1.5em;font-weight:600;">{patient['name']}({patient['info']})</span><br>
+            <span style="font-size:1.5em;font-weight:700;">요청리스트</span>
         </div>
         """, unsafe_allow_html=True
     )
@@ -314,7 +314,14 @@ elif st.session_state.page == "request_list":
                     unsafe_allow_html=True
                 )
                 # 버튼 구현
-                col_spacer, col1, col2 = st.columns([1.4, 0.6, 1])
+                col_spacer, col0, col1, col2 = st.columns([0.4, 0.8, 0.6, 1])
+                with col0:
+                    if req["type"] == "통증":
+                        if st.button("상세정보", key=f"pain_detail_{order}"):
+                            st.session_state.pain_request_patient_idx = st.session_state.selected_patient
+                            st.session_state.pain_request_info = req
+                            st.session_state.page = "pain_request"
+                            st.rerun()
                 with col1:
                     if st.button("완료", key=f"complete_{order}"):
                         req["status"] = "finished"
@@ -331,6 +338,41 @@ elif st.session_state.page == "request_list":
                 '<div style="font-size:1.07em; margin-top:8px; color:#222; text-align:center;">마지막 요청입니다.</div>',
                 unsafe_allow_html=True
             )
+
+# ------------------ 통증 요청 화면 ------------------
+elif st.session_state.page == "pain_request":
+    patient_idx = st.session_state.pain_request_patient_idx
+    req = st.session_state.pain_request_info
+    patient = st.session_state.patients_data[patient_idx]
+    # 헤더: 뒤로가기, 별모양, bed, name, info
+    back = st.button("← 뒤로가기")
+    if back:
+        st.session_state.page = "request_list"
+        st.rerun()
+    star_color = "#FFD600" if patient["favorite"] else "#BDBDBD"
+    star_icon = "⭐" if patient["favorite"] else "☆"
+    st.markdown(
+        f"""
+        <div style="background:#e3f2fd;padding:18px 0 6px 30px; position:relative;">
+            <span class="star" style="left:0px;top:18px;color:{star_color};font-size:1.5em;position:absolute;">{star_icon}</span>
+            <span style="font-size:1.5em;font-weight:700;">{patient['bed']}</span><br>
+            <span style="font-size:1.5em;font-weight:600;">{patient['name']}({patient['info']})</span>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+    # 통증 요청 상세 정보
+    st.markdown(f"""
+    <div style="padding:18px 0 0 30px;">
+        <b><span style="font-size:1.5em;font-weight:600;">{req['time']}</span><br>
+        <b>통증 부위:</b> 배<br>
+        <b>통증 강도:</b> 5/10<br>
+        <b>통증 양상:</b> 찌르듯이
+    </div>
+    """, unsafe_allow_html=True)
+    st.stop()
+
+    st.image("pain.png", use_column_width=True)
 
 # 쿼리파라미터 감지 및 페이지 전환
 if params.get("select_patient"):
