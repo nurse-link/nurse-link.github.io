@@ -188,7 +188,7 @@ st.markdown("""
 
 # ---------------- 로그인 화면 ----------------
 if st.session_state.page == "login":
-    st.image("img/logo.png", use_column_width=True)
+    st.image("img/logo.png", use_container_width=True)
     st.markdown(
         """
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
@@ -370,7 +370,7 @@ elif st.session_state.page == "pain_request":
             <b>통증 양상: 찌르듯이</b> 
         </div>
     """, unsafe_allow_html=True)
-    st.image("img/pain.png", use_column_width=True)
+    st.image("img/pain.png", use_container_width=True)
     st.stop()
 
 # 쿼리파라미터 감지 및 페이지 전환
