@@ -191,7 +191,6 @@ if st.session_state.page == "login":
     st.image("img/logo.png", use_column_width=True)
     st.markdown(
         """
-        <div style="height:0px;"></div>
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
             <h2 style="margin-bottom:28px; font-size:1.5em;">로그인</h2>
         </div>
