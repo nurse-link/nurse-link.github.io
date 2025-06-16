@@ -15,7 +15,7 @@ prototype2-link: https://nurse-linkappio-h3umhsk7g8ahzwwmhfdx26.streamlit.app/
 pdf: High-fi Prototype
 pdf-link: /assets/Hifi.pdf
 README: README
-README-link: /assets/README.pdf
+README-link: /assets/README_Hi.pdf
 client: Start Bootstrap
 category: Web Development
 description: We developed a high-fidelity prototype that closely resembled the final product in terms of design, functionality, and interactivity. Built in Figma, this version reflected all prior feedback and design decisions. It demonstrated polished UI elements and realistic user flows, enabling stakeholders to better understand the envisioned solution.
