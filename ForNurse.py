@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+import plotly.graph_objects as go
+from datetime import datetime, timedelta
 
 # ----------------- 데이터 정의 (status 필드 추가) -----------------
 patients = [
@@ -16,8 +19,8 @@ patients = [
         "bed": "12호", "name": "정○○", "info": "XX세/여", "favorite": True,
         "requests": [
             {"time": "05월30일 13:50", "type": "진단서", "emergency": False, "status": "default"},
-            {"time": "05월30일 13:45", "type": "통증", "emergency": True, "status": "default"},
-            {"time": "05월30일 13:30", "type": "체위변경", "emergency": False, "status": "default"},
+            {"time": "05월30일 13:30", "type": "통증", "emergency": True, "status": "default"},
+            {"time": "05월30일 13:20", "type": "체위변경", "emergency": False, "status": "default"},
         ]
     }
 ]
@@ -183,12 +186,32 @@ st.markdown("""
         opacity: 0.6;
         pointer-events: none;
     }
+    .pain-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .pain-table th, .pain-table td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .pain-table th {
+        background-color: #F5F5F5;
+        font-weight: 600;
+    }
+    .pain-table tr:last-child td {
+        border-bottom: none;
+    }
     </style>
 """, unsafe_allow_html=True)
 
 # ---------------- 로그인 화면 ----------------
 if st.session_state.page == "login":
-    st.image("img/logo.png", use_container_width=True)
+    st.image("img/logo.png", width=400)
     st.markdown(
         """
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
@@ -361,16 +384,76 @@ elif st.session_state.page == "pain_request":
         """, unsafe_allow_html=True
     )
 
-    # 통증 요청 상세 정보
-    st.markdown(f"""
-        <div style="padding:18px 0 0 30px; font-size:1.5em;">
-            <b><span style="font-weight:600;">{req['time']}</span></b><br>
-            <b>통증 부위: 배<br></b>
-            <b>통증 강도: 8/10<br></b>
-            <b>통증 양상: 찌르듯이</b> 
-        </div>
+    # 통증 정보 테이블
+    st.markdown("""
+        <table class="pain-table">
+            <tr>
+                <th>요청 시간</th>
+                <td>05월30일 13:30</td>
+            </tr>
+            <tr>
+                <th>통증 부위</th>
+                <td>배</td>
+            </tr>
+            <tr>
+                <th>통증 강도</th>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <th>통증 양상</th>
+                <td>찌르듯이</td>
+            </tr>
+        </table>
     """, unsafe_allow_html=True)
-    st.image("img/pain.png", use_container_width=True)
+
+    # 통증 기록 데이터 생성 (예시 데이터)
+    times = pd.date_range(start='2024-05-30 12:00', periods=8, freq='30min')
+    pain_levels = [3, 5, 7, 8, 6, 4, 5, 3]
+    
+    # 그래프 생성
+    fig = go.Figure()
+    
+    # 선 추가
+    fig.add_trace(go.Scatter(
+        x=times,
+        y=pain_levels,
+        mode='lines+markers',
+        line=dict(color='#2E7D32', width=2),
+        marker=dict(
+            size=[10 if level < 7 else 12 for level in pain_levels],
+            color=['#2E7D32' if level < 7 else '#D32F2F' for level in pain_levels],
+            line=dict(width=2, color='white')
+        )
+    ))
+    
+    # 그래프 레이아웃 설정
+    fig.update_layout(
+        title='통증 강도 변화',
+        xaxis_title='시간',
+        yaxis_title='통증 강도',
+        yaxis=dict(range=[0, 10]),
+        plot_bgcolor='white',
+        paper_bgcolor='white',
+        showlegend=False,
+        height=400,
+        margin=dict(l=20, r=20, t=40, b=20)
+    )
+    
+    # 격자 설정
+    fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#E0E0E0')
+    fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#E0E0E0')
+    
+    # 핀치 줌 기능 활성화
+    fig.update_layout(
+        dragmode='zoom',
+        modebar=dict(
+            orientation='v',
+            bgcolor='rgba(255, 255, 255, 0.7)'
+        )
+    )
+    
+    st.plotly_chart(fig, use_container_width=True)
+    
     st.stop()
 
 # 쿼리파라미터 감지 및 페이지 전환
